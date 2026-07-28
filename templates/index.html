@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<center>
+
+    <h1 class='display-1' style="font-weight: bold; color: black; text-shadow: white 3px 3px;">Automated Image</h1>
+    <h1 class='display-1' style="font-weight: bold; color: black; text-shadow: white 3px 3px;">Captioning</h1>
+
+    <br>
+    <br>
+    <h1>
+        <form action="{{ url_for('after') }}" method='POST' enctype='multipart/form-data'>
+            <input type="file" name='file1' style="width: 200px; height: 50px; font-size: 15px; ">
+            <input type="submit" name="btn" value='Predict Caption' class='btn btn-warning'
+                style="width: 200px; height: 50px; font-size: 18px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+        </form>
+    </h1>
+</center>
+
+{% endblock %}
