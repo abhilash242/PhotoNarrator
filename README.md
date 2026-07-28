@@ -5,7 +5,7 @@ Photo Narrator is a Flask web application that generates a short text caption fo
 ## Team
 
 - Abhilash Mohan Das
-- Team members: add the names of your collaborators here
+- Medha Hegde
 
 ## Features
 
